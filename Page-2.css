@@ -31,6 +31,15 @@ body {
   height:auto;
 }
 
+/* navbar color */
+.navbar-brand {
+  color: white;
+}
+
+.nav-item .navbar-link {
+  color: antiquewhite;
+}
+
 .u-section-1 .u-sheet-1 {
   min-height: 716px;
 }
