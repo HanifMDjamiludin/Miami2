@@ -6583,6 +6583,7 @@ section.u-image:not(.u-hover-box),
 }
 .u-image-circle.u-image {
   border-radius: 50% !important;
+  overflow: hidden;
 }
 .u-image-square {
   border-radius: 0;
