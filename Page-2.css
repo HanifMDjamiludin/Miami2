@@ -40,6 +40,20 @@ body {
   color: antiquewhite;
 }
 
+#twinBuildings {
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+#beachClub {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+#inset{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+#inset2{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
 .u-section-1 .u-sheet-1 {
   min-height: 716px;
 }
