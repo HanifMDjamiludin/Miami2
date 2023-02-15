@@ -26,12 +26,6 @@
     <script
       class="u-script"
       type="text/javascript"
-      src="changeImg.js"
-      defer=""
-    ></script>
-    <script
-      class="u-script"
-      type="text/javascript"
       src="jquery-1.9.1.min.js"
       defer=""
     ></script>
@@ -77,8 +71,8 @@
     class="u-body u-xl-mode"
     data-lang="en"
   >
-    <nav class="navbar navbar-custom navbar-expand-lg fixed-top">
-      <a class="navbar-brand" href="#">Navbar</a>
+    <nav id="theBar" class="navbar navbar-custom navbar-expand-lg fixed-top">
+      <a id="icon" class="navbar-brand u-text-5" href="#">Navbar</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -90,15 +84,16 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+      <!-- navbar collapses when responsive -->
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="navbarOptions u-font-georgian nav-item nav-link active" href="#"
+          <a class="navbarOptions u-font-georgian nav-item nav-link active u-text-5" href="#"
             >Home <span class="sr-only">(current)</span></a
           >
-          <a class="navbarOptions u-font-georgian nav-item nav-link" href="#">About Us</a>
-          <a class="navbarOptions u-font-georgiannav-item nav-link" href="#">Contact Us</a>
+          <a class="navbarOptions u-font-georgian nav-item nav-link u-text-5" href="#">About Us</a>
+          <a class="navbarOptions u-font-georgiannav-item nav-link u-text-5" href="#">Contact Us</a>
           <a
-            class="navbarOptions u-font-georgian nav-item nav-link"
+            class="navbarOptions u-font-georgian nav-item nav-link u-text-5"
             href="#">Brochures</a>
         </div>
       </div>
@@ -270,11 +265,11 @@ in a glamorous setting.
           <div class="container">
             <div class="tabs">
               <input type="radio" id="radio-1" name="tabs" checked />
-              <label class="tab" for="radio-1">Upcoming</label>
+              <label class="tab" for="radio-1">Two</label>
               <input type="radio" id="radio-2" name="tabs" />
-              <label class="tab" for="radio-2">Development</label>
+              <label class="tab" for="radio-2">Three</label>
               <input type="radio" id="radio-3" name="tabs" />
-              <label class="tab" for="radio-3">Completed</label>
+              <label class="tab" for="radio-3">Four</label>
               <span class="glider"></span>
             </div>
           </div>
@@ -492,9 +487,7 @@ in a glamorous setting.
               Contact Us
             </h2>
             <p class="u-text u-text-custom-color-2 u-text-2">
-              Please contact us for any question or request you may have,
-              through this form. Your request will be processed by our staff and
-              we will get back to you as soon as possible.
+              Fortune International Group & Chateau Group
             </p>
           </div>
         </div>
@@ -528,8 +521,8 @@ in a glamorous setting.
                   >
                     <div class="u-container-layout u-container-layout-3">
                       <p class="u-text u-text-custom-color-2 u-text-3">
-                        Apostolia Nasiopoulou <br />Katapola, Amorgos 84008,
-                        Greece <br />+30 22850 71554,<br />+30 22850 74178
+                        18801 Collins Ave, <br /> Sunny Isles Beach, FL 33160
+                       <br />+30 22850 71554,<br />+30 22850 74178
                         <br />+30 22850 71554 <br />aponas@otenet.gr<br />
                       </p>
                       <div
@@ -786,5 +779,11 @@ in a glamorous setting.
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script
+    class="u-script"
+    type="text/javascript"
+    src="changeImg.js"
+    defer=""
+  ></script>
   </body>
 </html>

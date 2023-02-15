@@ -6,6 +6,11 @@
   pointer-events: none!important;
 }
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+
+.u-section-1 {
+  transition: background-image 2s ease-in-out;
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;

@@ -1,7 +1,4 @@
 /* Modify the background color */
-.navbar-custom {
-	color: antiquewhite;
-}
 
 /* Prevent whitespace on top */
 html {
@@ -23,12 +20,17 @@ body {
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(51,51,41,0.45), rgba(51,51,41,0.45)), url("images/NextBest.jpg");
   background-position: 50% top 100%;
-  transition: opacity 0.5ms linear 0.5ms;
+  transition: background-image 2s ease-in-out;
 }
 /* edit these three circles */
 .firstCircl {
   width: 100%;
   height:auto;
+}
+
+#icon {
+  padding-left: 175px;
+  padding-right: 710px;
 }
 
 /* navbar color */
@@ -38,6 +40,11 @@ body {
 
 .nav-item .navbar-link {
   color: white;
+}
+
+.sticky {
+  background-color: beige;
+  transition: background-color ease-in-out;
 }
 
 #twinBuildings {
