@@ -22,10 +22,18 @@ body {
   background-position: 50% top 100%;
   transition: background-image 2s ease-in-out;
 }
+
+#sec-279e {
+  transition: background-image 2s ease-in-out;
+}
 /* edit these three circles */
 .firstCircl {
   width: 100%;
   height:auto;
+}
+
+.u-image .u-image-circle .u-image-1 {
+  border-radius: 50%;
 }
 
 #icon {
