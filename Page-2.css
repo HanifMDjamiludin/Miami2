@@ -17,24 +17,70 @@ body {
   margin:0;
 } */
 
- .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(51,51,41,0.45), rgba(51,51,41,0.45)), url("images/NextBest.jpg");
+#sec-279e {
+  background-image: url('NextBest.jpg');
   background-position: 50% top 100%;
-  transition: background-image 2s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.35s ease-in-out !important;
 }
 
-#sec-279e {
-  transition: background-image 2s ease-in-out;
+.background1 {
+  background-image: url('NextBest.jpg')!important;
+  background-position: 50% top 100%;
+  background-size: cover;
+  background-position: center;
+  
 }
+
+.background2 {
+  background-image: url('Dusk.jpg')!important;
+  background-position: 50% top 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+/* #sec-279e {
+  transition: background-image 2s ease-in-out;
+} */
 /* edit these three circles */
 .firstCircl {
   width: 100%;
   height:auto;
 }
-
-.u-image .u-image-circle .u-image-1 {
+#circle1 {
+  bottom:auto;
+  height: 300px;
+  width: 300px ;
+  position: relative;
+  overflow: hidden;
   border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
+#circle2 {
+  bottom:auto;
+  height: 300px;
+  width: 300px ;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#circle3 {
+  bottom:auto;
+  height: 300px;
+  width: 300px ;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* .u-image .u-image-circle .u-image-1 {
+  border-radius: 50%;
+} */
 
 #icon {
   padding-left: 175px;
@@ -216,8 +262,9 @@ input[id=radio-3]:checked ~ .glider {
   margin-right: 257px;
   text-transform: uppercase;
   font-size: 0.875rem;
-  background-image: none;
+  /* background-image: none;  */
 }
+
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
@@ -547,7 +594,7 @@ input[id=radio-3]:checked ~ .glider {
     margin-right: 89px;
   }
 } .u-section-3 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/Dusk.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("Dusk.jpg");
   background-position: 50% 50%;
 }
 
