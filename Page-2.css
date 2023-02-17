@@ -88,7 +88,7 @@ body {
 }
 
 /* navbar color */
-.navbar-brand {
+/* .navbar-brand {
   color: white;
 }
 
@@ -99,7 +99,13 @@ body {
 .sticky {
   background-color: beige;
   transition: background-color ease-in-out;
+} */
+
+.navbar-scrolled {
+  background-color: #333;
+  transition: background-color 0.5s ease-in-out;
 }
+
 
 #twinBuildings {
 box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);

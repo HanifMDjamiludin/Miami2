@@ -32,6 +32,16 @@
 
 // setInterval(changeBackground, 5000);
 
+var navbar = document.querySelector('.navbar');
+
+window.onscroll = function() {
+  if (window.pageYOffset > 0) {
+    navbar.classList.add('navbar-scrolled');
+  } else {
+    navbar.classList.remove('navbar-scrolled');
+  }
+}
+
 
 const section = document.getElementById('sec-279e');
 const backgrounds = ['background1', 'background2'];
