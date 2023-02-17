@@ -17077,8 +17077,8 @@ blockquote .small:before {
   z-index: 1500;
   -webkit-text-size-adjust: 100%;
   /* create separate layer, to avoid paint on window.onscroll in webkit/blink */
-  -webkit-backface-visibility: hidden;
-  outline: none;
+  /* -webkit-backface-visibility: hidden;
+  outline: none; */
 }
 .pswp * {
   box-sizing: border-box;
@@ -17131,14 +17131,14 @@ blockquote .small:before {
   -webkit-backface-visibility: hidden;
   will-change: opacity;
 }
-.pswp__scroll-wrap {
+/* .pswp__scroll-wrap {
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   overflow: hidden;
-}
+} */
 .pswp__container,
 .pswp__zoom-wrap {
   touch-action: none;
@@ -17264,9 +17264,9 @@ blockquote .small:before {
   opacity: 1;
   cursor: default;
 }
-.pswp__previews::-webkit-scrollbar {
+/* .pswp__previews::-webkit-scrollbar {
   display: none;
-}
+} */
 /* end previews  */
 /*end-commonstyles photoswipe*/
 /*begin-commonstyles photoswipe-default*/
@@ -19802,12 +19802,12 @@ a.pswp__share--download:hover {
   height: 100%;
   overflow-x: auto;
   overflow-y: hidden;
-  scrollbar-width: none;
+  /* scrollbar-width: none; */
 }
-.u-layout-horizontal .u-repeater::-webkit-scrollbar,
+/* .u-layout-horizontal .u-repeater::-webkit-scrollbar,
 .u-layout-horizontal .u-gallery-inner::-webkit-scrollbar {
   display: none;
-}
+} */
 .u-layout-horizontal .u-gallery-inner {
   white-space: nowrap;
 }
