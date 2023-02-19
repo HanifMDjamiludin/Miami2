@@ -24441,7 +24441,7 @@ section.u-palette-2-dark-2:before,
 li.active > .u-button-style.u-button-style.u-palette-2-dark-2,
 li.active > .u-button-style.u-button-style.u-palette-2-dark-2[class*="u-border-"] {
   color: #ffffff !important;
-  background-color: #2f444b !important;
+  background-color: #333333 !important;
 }
 .u-hover-palette-2-dark-2:hover,
 .u-hover-palette-2-dark-2[class*="u-border-"]:hover,
@@ -24464,7 +24464,7 @@ a.u-button-style.u-button-style.active > .u-active-palette-2-dark-2[class*="u-bo
 li.active > a.u-button-style.u-button-style.u-active-palette-2-dark-2,
 li.active > a.u-button-style.u-button-style.u-active-palette-2-dark-2[class*="u-border-"] {
   color: #ffffff !important;
-  background-color: #344c53 !important;
+  background-color: #333333 !important;
 }
 a.u-link.u-hover-palette-2-dark-2:hover {
   color: #344c53 !important;
@@ -26078,7 +26078,7 @@ section.u-palette-5-base:before,
 .u-button-style.u-palette-5-base,
 .u-button-style.u-palette-5-base[class*="u-border-"] {
   border-radius: 2.5px;
-  color: #333333 !important;
+  color: #434C56 !important;
   background-color: #ffffff !important;
 }
 .u-button-style.u-palette-5-base:hover,
@@ -26090,9 +26090,9 @@ section.u-palette-5-base:before,
 .u-button-style.u-button-style.u-palette-5-base.active,
 .u-button-style.u-button-style.u-palette-5-base[class*="u-border-"].active,
 li.active > .u-button-style.u-button-style.u-palette-5-base,
-li.active > .u-button-style.u-button-style.u-palette-5-base[class*="u-border-"] {
+li.active > .u-button-style.u-button-style.u-palette-5-base[class*="u-border-"]{
   color: #ffffff !important;
-  background-color: #33415c !important;
+  background-color: #434C56 !important;
 }
 .u-hover-palette-5-base:hover,
 .u-hover-palette-5-base[class*="u-border-"]:hover,

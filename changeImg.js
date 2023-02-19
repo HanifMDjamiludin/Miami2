@@ -1,3 +1,17 @@
+// make elements appear on scroll
+const elements = document.querySelectorAll(".hidden");
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      });
+      elements.forEach((element) => {
+        observer.observe(element);
+      });
+
 // navbar background color change on scroll
 var navbar = document.querySelector('.navbar');
 
@@ -23,8 +37,4 @@ setInterval(() => {
     counter = 0;
   };
 }, 5000);
-
-//Prevent scrolling above first element and past last element
-const topElement = document.getElementById("top");
-const bottomElement = document.getElementById("bottom");
 

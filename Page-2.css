@@ -25,6 +25,32 @@
   transition: background-image 0.35s ease-in-out !important;
 }
 
+/* activate Google font marcellus */
+@font-face {
+  font-family: 'MarcellusSC';
+  src: url('Fonts/MarcellusSC-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Marcellus';
+  src: url('Fonts/Marcellus-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CormorantMed';
+  src: url('Fonts/Cormorant-Medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CormorantLight';
+  src: url('Fonts/Cormorant-Light.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* edit these three circles */
 .firstCircl {
   width: 100%;
@@ -64,6 +90,7 @@
 
 #icon {
   color: white;
+  font-family: 'CormorantMed';
   padding-left: 175px;
   padding-right: 710px;
 }
@@ -73,10 +100,14 @@
   transition: background-color 0.5s ease-in-out;
 }
 
-/* trying to onscroll navbar options change */
-/* .navbarOptions {
-  
-} */
+/* making elements appear onload */
+.hidden {
+  opacity: 0;
+  transition: opacity 1.20s ease-in-out !important;
+}
+.visible {
+  opacity: 1;
+}
 
 
 #twinBuildings {
@@ -86,18 +117,30 @@ box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 #beachClub {
   background-color: #f0f0f0;
   border: 1px solid #e0e0e0;
-  border-radius: 8%;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+h1 {
+  font-family: 'CormorantMed' !important;
+}
+h2 {
+  font-family: 'CormorantMed' !important;
+}
+button {
+  font-family: 'CormorantLight' !important; 
+  /* Does this even do antything? */
 }
 
 #beachText {
-  color: black;
+  color: #434C56;
+  font-family: 'CormorantMed';
 
 }
 
 #beachPara {
-  color:black;
-
+  color:#434C56;
+  font-family: 'CormorantLight';
 }
 
 #inset{
@@ -109,6 +152,7 @@ box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 
 .navbarOptions {
   color: white;
+  font-family: 'CormorantMed';
 }
 
 /* Three tabs css */
@@ -133,7 +177,7 @@ box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'CormorantMed' !important;
   background-color: rgba(230, 238, 249, 0.5);
 }
 
@@ -679,6 +723,7 @@ input[id=radio-3]:checked ~ .glider {
     padding-right: 6px;
   }
 } .u-section-4 {
+  background-color: #434C56 !important;
   background-image: none;
 }
 
