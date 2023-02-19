@@ -96,27 +96,19 @@ body {
 } */
 
 #icon {
+  color: white;
   padding-left: 175px;
   padding-right: 710px;
 }
 
-/* navbar color */
-/* .navbar-brand {
-  color: white;
-}
-
-.nav-item .navbar-link {
-  color: white;
-}
-
-.sticky {
-  background-color: beige;
-  transition: background-color ease-in-out;
-} */
 
 .navbar-scrolled {
   background-color: white;
   transition: background-color 0.5s ease-in-out;
+}
+
+.navbarOptions {
+  
 }
 
 
