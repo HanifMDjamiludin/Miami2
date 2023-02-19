@@ -159,6 +159,11 @@ box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
   --secondary-color: #e6eef9;
 }
 
+#backlink {
+  text-align: center;
+  justify-content: center;
+}
+
 *,
 *:after,
 *:before {
