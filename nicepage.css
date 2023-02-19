@@ -26072,13 +26072,14 @@ section.u-palette-5-base:before,
 .u-palette-5-base.u-sidenav:before,
 .u-container-layout.u-container-layout.u-palette-5-base:before,
 .u-table-alt-palette-5-base tr:nth-child(even) {
-  color: #111111;
-  background-color: #f7f39a;
+  color: #333333;
+  background-color: #ffffff;
 }
 .u-button-style.u-palette-5-base,
 .u-button-style.u-palette-5-base[class*="u-border-"] {
-  color: #111111 !important;
-  background-color: #f7f39a !important;
+  border-radius: 2.5px;
+  color: #333333 !important;
+  background-color: #ffffff !important;
 }
 .u-button-style.u-palette-5-base:hover,
 .u-button-style.u-palette-5-base[class*="u-border-"]:hover,
@@ -26090,8 +26091,8 @@ section.u-palette-5-base:before,
 .u-button-style.u-button-style.u-palette-5-base[class*="u-border-"].active,
 li.active > .u-button-style.u-button-style.u-palette-5-base,
 li.active > .u-button-style.u-button-style.u-palette-5-base[class*="u-border-"] {
-  color: #111111 !important;
-  background-color: #f4ef75 !important;
+  color: #ffffff !important;
+  background-color: #33415c !important;
 }
 .u-hover-palette-5-base:hover,
 .u-hover-palette-5-base[class*="u-border-"]:hover,

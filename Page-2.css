@@ -1,34 +1,4 @@
-/* Modify the background color */
-
-/* Prevent whitespace on top */
-/* html {
-  overflow: hidden;
-  height: 100%;
-  scroll-behavior: smooth;
-} */
-
-body {
-  overflow: hidden;
-  height: 100%;
-}
-.scrollable {
-  height: 100%;
-  overflow: auto;
-  position: relative;
-}
-.content {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-/* ^^ */
-
-/* .u-container-layout-1 #cost {
-  margin:0;
-} */
-
+/* section 1 background img change */
 #sec-279e {
   top:auto;
   background-image: url('NextBestDark.jpg');
@@ -39,23 +9,22 @@ body {
 }
 
 .background1 {
-  background-image: url('NextBestDark.jpg')!important;
-  background-position: 50% top 100%;
-  background-size: cover;
-  background-position: center;
-  
-}
-
-.background2 {
   background-image: url('DuskDark.jpg')!important;
   background-position: 50% top 100%;
   background-size: cover;
   background-position: center;
+  transition: background-image 0.35s ease-in-out !important;
+  
 }
 
-/* #sec-279e {
-  transition: background-image 2s ease-in-out;
-} */
+.background2 {
+  background-image: url('NextBestDark.jpg')!important;
+  background-position: 50% top 100%;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.35s ease-in-out !important;
+}
+
 /* edit these three circles */
 .firstCircl {
   width: 100%;
@@ -91,25 +60,23 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-/* .u-image .u-image-circle .u-image-1 {
-  border-radius: 50%;
-} */
+/* icon from nav */
 
 #icon {
   color: white;
   padding-left: 175px;
   padding-right: 710px;
 }
-
-
+/* onscroll background color change */
 .navbar-scrolled {
-  background-color: white;
+  background-color: #434C56;
   transition: background-color 0.5s ease-in-out;
 }
 
-.navbarOptions {
+/* trying to onscroll navbar options change */
+/* .navbarOptions {
   
-}
+} */
 
 
 #twinBuildings {
@@ -151,11 +118,14 @@ box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
   --secondary-color: #e6eef9;
 }
 
+/* Bottom black section */
+
 #backlink {
+  padding-top: 2.5%;
   text-align: center;
   justify-content: center;
 }
-
+/* Template css below */
 *,
 *:after,
 *:before {

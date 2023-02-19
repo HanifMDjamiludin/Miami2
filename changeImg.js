@@ -17,6 +17,14 @@ let counter = 0;
 setInterval(() => {
   section.classList.remove(backgrounds[counter === 0 ? backgrounds.length - 1 : counter - 1]);
   section.classList.add(backgrounds[counter]);
-  counter = (counter + 1) % backgrounds.length;
-}, 4500);
+  if(counter == 0){
+    counter = 1;
+  }else{
+    counter = 0;
+  };
+}, 5000);
+
+//Prevent scrolling above first element and past last element
+const topElement = document.getElementById("top");
+const bottomElement = document.getElementById("bottom");
 
