@@ -112,11 +112,13 @@
   font-family: 'CormorantMed';
   left: 175px;
   right: 710px;
+  margin-left: 84px;
+  margin-right: 850px;
 }
 /* sizing for navbar */
 
 .navbar {
-  height: 80px !important;
+  height: 65px !important;
   width: 100% !important;
 }
 
@@ -125,6 +127,15 @@
   .navbar {
     height: 60px !important;
     font-size: 0.8em !important;
+  }
+  #twinBuildings{
+    height: 500px;
+    width: 300px;
+  }
+  #twoBuildings {
+    height: 100% !important;
+    object-fit: cover !important;
+    
   }
 }
 
@@ -143,6 +154,30 @@
 .visible {
   opacity: 1;
 }
+/* Button Styling */
+
+#learnMore {
+  background-color: #f0f0f0 !important;
+  color:#434C56 !important;
+  border-radius: 2.5px;
+}
+
+#readMore{
+  background-color: #434C56 !important;
+  color:#f0f0f0 !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  border-radius: 2.5px;
+}
+
+#viewMore {
+  background-color: #f0f0f0 !important;
+  color:#434C56 !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  border-radius: 2.5px;
+}
+
 /* Took orange stats from original regis website */
 ul {
   list-style: none;
@@ -164,8 +199,9 @@ span {
   justify-content: space-between;
 }
 /* ends here */
+
 #twinBuildings {
-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 #beachClub {
@@ -211,15 +247,10 @@ button {
 .navbarOptions {
   color: white;
   font-family: 'CormorantMed';
+  margin-right: 20px;
 }
 
-/* Icons from other regis website */
-@media screen and (max-width: 1020px){
-  li {
-    width: 22%;
-  }
 
-}
 
 
 li {
