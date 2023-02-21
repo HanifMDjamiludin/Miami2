@@ -86,14 +86,49 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+/* button images in front page */
+.buttonimg {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.buttonimg img {
+  width: 100%;
+  height: auto;
+}
+
+.buttonimg:hover img {
+  transform: scale(0.88);
+}
+
+
 /* icon from nav */
 
 #icon {
   color: white;
   font-family: 'CormorantMed';
-  padding-left: 175px;
-  padding-right: 710px;
+  left: 175px;
+  right: 710px;
 }
+/* sizing for navbar */
+
+.navbar {
+  height: 80px !important;
+  width: 100% !important;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .navbar {
+    height: 60px !important;
+    font-size: 0.8em !important;
+  }
+}
+
+
 /* onscroll background color change */
 .navbar-scrolled {
   background-color: #434C56;
@@ -108,8 +143,27 @@
 .visible {
   opacity: 1;
 }
+/* Took orange stats from original regis website */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
+li {
+  display: flex;
+  margin-right: 10px; /* Add some spacing between list items */
+}
 
+span {
+  color:black;
+}
+
+.ndt-bf {
+  display: flex;
+  justify-content: space-between;
+}
+/* ends here */
 #twinBuildings {
 box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
@@ -127,6 +181,10 @@ h1 {
 h2 {
   font-family: 'CormorantMed' !important;
 }
+h3 {
+  font-family: 'CormorantMed' !important;
+}
+
 button {
   font-family: 'CormorantLight' !important; 
   /* Does this even do antything? */
@@ -153,6 +211,33 @@ button {
 .navbarOptions {
   color: white;
   font-family: 'CormorantMed';
+}
+
+/* Icons from other regis website */
+@media screen and (max-width: 1020px){
+  li {
+    width: 22%;
+  }
+
+}
+
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+ul.ndt-main-info li {
+  float: left;
+  width: 25%;
+  padding: 0 0 0 30px;
+  font-size: 28px;
+  line-height: 28px;
+  color: #ff7200;
+  font-family: Arsenal;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Three tabs css */
