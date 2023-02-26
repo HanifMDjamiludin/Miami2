@@ -115,6 +115,12 @@
   margin-left: 84px;
   margin-right: 850px;
 }
+
+#iconic {
+  height: 90px;
+  width: 90px;
+  margin-top: 20px;
+}
 /* sizing for navbar */
 
 .navbar {
