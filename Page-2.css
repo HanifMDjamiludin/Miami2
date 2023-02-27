@@ -183,6 +183,11 @@
   padding-right: 10px !important;
   border-radius: 2.5px;
 }
+/* gray preconstruction benefits paragraphs */
+
+#grayp1, #grayp2, #grayp3, #grayp4, #grayp5, #grayp6 {
+  color:#434C56;
+}
 
 /* Took orange stats from original regis website */
 ul {
@@ -251,6 +256,7 @@ button {
 }
 
 .navbarOptions {
+  white-space: nowrap;
   color: white;
   font-family: 'CormorantMed';
   margin-right: 20px;
