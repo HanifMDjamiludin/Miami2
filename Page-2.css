@@ -92,7 +92,7 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: transform 0.15s ease-in-out !important;
 }
 
 .buttonimg img {
@@ -100,7 +100,7 @@
   height: auto;
 }
 
-.buttonimg:hover img {
+.buttonimg:hover {
   transform: scale(0.88);
 }
 
