@@ -115,6 +115,25 @@
   margin-left: 84px;
   margin-right: 850px;
 }
+@media(max-width: 1400px){
+  #icon{
+    margin-right: 600px;
+  }
+}
+@media(max-width: 1170px){
+  #icon{
+    margin-right: 450px;
+  } 
+}
+@media(max-width: 991px){
+  #icon{
+    position: fixed;
+    top: -100;
+    left: 0%;
+    transform: translateX(-50%);
+    z-index: 9999;
+  } 
+}
 
 #iconic {
   height: 90px;
@@ -256,6 +275,7 @@ button {
 }
 
 .navbarOptions {
+  display: block;
   white-space: nowrap;
   color: white;
   font-family: 'CormorantMed';
